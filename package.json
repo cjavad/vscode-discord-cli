@@ -1,0 +1,41 @@
+{
+  "name": "vscode-discord-cli",
+  "displayName": "discord-cli Syntax",
+  "description": "discord-cli syntax highlighting support",
+  "version": "0.0.1",
+  "publisher": "cjavad",
+  "engines": {
+      "vscode": "^1.18.0"
+  },
+  "categories": [
+      "Programming Languages"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/cjavad/vscode-discord-cli"
+  },
+  "keywords": [
+      "syntax",
+      "discord-cli",
+      "discordquery"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+      "languages": [{
+          "id": "discordquery",
+          "aliases": ["discordquery"],
+          "extensions": [".dq"],
+          "configuration": "./language-configuration.json"
+      }],
+      "grammars": [{
+          "language": "discordquery",
+          "scopeName": "source.discordquery",
+          "path": "./dq.tmLanguage"
+      }],
+      "productIconThemes": [{
+          "id": "discordquery-icon",
+          "label": "Discord Query Icon",
+          "path": "./icon-theme.json"
+      }]
+  }
+}
