@@ -3,7 +3,7 @@
   "displayName": "discord-cli Syntax",
   "description": "discord-cli syntax highlighting support",
   "version": "0.0.1",
-  "publisher": "cjavad",
+  "publisher": "javad",
   "engines": {
       "vscode": "^1.18.0"
   },
